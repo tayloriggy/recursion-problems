@@ -29,4 +29,4 @@ function findFactorial (num) {
 
 }
 
-findFactorial(50);
+findFactorial(6);
