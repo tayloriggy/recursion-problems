@@ -11,9 +11,11 @@ Steps:
 function findFactorial (num) {
     if (num === 0) {
         return 1;
+    // this is the base case
     }
     else {
         return num * findFactorial(num - 1);
+    // this tells the function what to do when it calls itself
     }
     
     /*
